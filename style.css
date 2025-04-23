@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url(/home/simog/repos/Sign-up-Form/Norse-Bold.otf);
+}
+
+.odin {
+    font-family: 'CustomFont';
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.background-image {
+    display: block;
+    height: 100vh;
+    width: auto;
+}
+
+.header {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header img {
+    width: 30%;
+    height: 30%;
+}
+
+.header h1 {
+    font-size: 50px;
+    width: 100px;
+}
